@@ -105,6 +105,7 @@ async function generateAndSaveImage() {
     console.log(`Imagem salva como ${filename}`);
   } catch (error) {
     console.error('Erro ao gerar ou salvar a imagem:', error);
+    console.error(error)
   }
 }
 
