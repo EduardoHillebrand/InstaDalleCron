@@ -2,7 +2,7 @@
   "name": "instadallecron",
   "version": "1.0.0",
   "description": "A simple boot to create images to instagram",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

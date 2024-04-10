@@ -5,7 +5,7 @@ const Message = require('../schemas/Message');
 exports.getData = async () => {
   try {
     // Fetch the latest message in the collection
-    const message = await Message.findOne().sort({ createdAt: -1 });
+    const message = await Message.find().sort({ createdAt: -1 });
     return message;
   } catch (error) {
     console.error('Error fetching message:', error);
