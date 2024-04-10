@@ -1,0 +1,6 @@
+- Texto para referencia:
+"<replace>"
+- Baseado no texto que vou informado acima quero que gere uma titulo e as hashtags em ingles que combinam para usar no instagram, sempre adicionar a hashtag #followforfollowback ao final
+informando o titulo e as hashtags em uma linha, como seria postado, por exemplo: 
+A Arte de Trabalhar com Estilo: Encontrando Equilíbrio e Beleza no Escritório  #VidaNoEscritório #EspaçoDeTrabalhoDosSonhos #TrabalhoComVista #DesignDeEscritório #ProdutividadeEConforto #MomentosNoEscritório #BelezaNoTrabalho #EscritórioModerno #InspiraçãoParaTrabalhar #BemEstarNoTrabalho #EscritórioAcolhedor #EquilíbrioNoTrabalho #AmbienteDeTrabalhoIdeal #TrabalharPodeSerBom #followforfollowback
+- retorne somente o titulo e hashtags formatadas conforme instruido. nada mais. 

@@ -1,0 +1,4 @@
+- Texto para referencia:
+"<replace>"
+- Baseado no texto acima,  gostaria que criasse uma lista com ao menos 25 músicas relacionadas ao tema. 
+Retorne em formato json onde cada musica é um objeto do array, dentro desse objeto as chaves serão "songName", onde conterá o nome da musica, "artistOrBand" onde conterá o nome do autor da musica ou banda, "releaseDate" onde conterá o ano do lançamento. Você ordenará em ordem crescente de ano de lançamento. Retorne somente o json solicitado, nada a mais. 

@@ -1,1 +1,1 @@
-Gostaria que gerasse pra mim um prompt para usar no dalle que descreva uma imagem que fará sucesso no instagram com o tema '<replace>'. 
+Gostaria que gerasse pra mim um prompt em ingles para usar no dalle que descreva uma imagem que fará sucesso no instagram com o tema '<replace>'. 
