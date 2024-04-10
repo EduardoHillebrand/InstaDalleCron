@@ -23,6 +23,7 @@ exports.setData = async (_message) => {
       imagePrompt: null,
       hashtags: null,
       musicPrompt: null,
+      status: "message", 
       songs: []
     });
 
@@ -35,7 +36,15 @@ exports.setData = async (_message) => {
   }
 };
 
-
+exports.findMessagesWithStatus = async(_status) => {
+  try {
+    const messages = await Message.find({ status: _status });
+    return messages;
+  } catch (error) {
+    console.error('Erro ao buscar mensagens:', error);
+    throw error; // Ou retorne um valor de erro apropriado
+  }
+}
 
 
 

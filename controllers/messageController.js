@@ -2,7 +2,6 @@ const messageModel = require('../models/messageModel');
 
 exports.messageFunction = async(req, res) => {
   const data = await messageModel.getData();
-  //console.log("getData",data)
   res.json(data);
 };
 
